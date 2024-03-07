@@ -1,0 +1,218 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.card-wrapper {
+ border: 1pt solid;
+  margin: auto;
+  overflow: hidden;
+  background-color: #aedee230;
+  left: auto;
+  top: auto;
+  width: 150mm;
+  height: 150mm;
+  position: relative;
+}
+
+.card-background {
+    background-color: #ffffff;
+    height: 100%;
+}
+.card-box1{
+  position: absolute;
+  left: 10mm;
+  top: 8mm;
+  width: 120mm;
+  height: 60mm;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+.card-box1-1 {
+  position: absolute;
+  left: 5.3mm;
+  width: 60mm;
+  height: 30mm;
+  margin: auto;
+  background-color: #0000ff;
+  transform: skewX(30deg);
+  overflow: hidden;
+}
+.card-box1-2{
+  position: absolute;
+  left: 5mm;
+  width: 60mm;
+    bottom: 0mm;
+  height: 31mm;
+  background-color: #0000ff;
+transform: skewX(-30deg);
+}
+.card-box1-3 {
+   position: absolute;
+  left: -10mm;
+  width: 71mm;
+  height: 30mm;
+background-color:#FF9933;
+transform: skewX(32deg);
+}
+.card-box1-4 {
+  position: absolute;
+  left: -10.3mm;
+  width: 71mm;
+     bottom: 0mm;
+  height: 31mm;
+  background-color: #FF9933;
+transform: skewX(-32deg);
+}
+.card-box2{
+  position: absolute;
+  left:8mm;
+  bottom: 8mm;
+  width: 120mm;
+  height: 60mm;
+  background-color: #0000FF;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+.card-box2-1 {
+  position: absolute;
+  right: 5.3mm;
+  width: 30mm;
+  height: 30mm;
+  margin: auto;
+  background-color: #ffffff;
+  transform: skewX(-30deg);
+  overflow: hidden;
+}
+.card-box2-2{
+  position: absolute;
+  right: -1.5mm;
+  width: 30mm;
+    bottom: 0mm;
+  height: 31mm;
+  background-color: #ffffff;
+transform: skewX(45deg);
+}
+.card-box2-3 {
+   position: absolute;
+  right: -10mm;
+  width: 41mm;
+  height: 30mm;
+background-color:#FF9933;
+transform: skewX(-32deg);
+}
+.card-box2-4 {
+  position: absolute;
+  right: -17mm;
+  width: 41mm;
+     bottom: 0mm;
+  height: 31mm;
+  background-color: #FF9933;
+transform: skewX(47deg);
+
+}
+
+.card-content {
+    position: absolute;
+   width:60mm;
+    text-align: left;
+    color: #333;
+}
+
+/* Customize content text styles */
+.name {
+	position: absolute;
+    font-size: 1.5em;
+	left: 5mm;
+	top: 5mm;
+    font-weight: bold;
+	text-decoration: underline;
+}
+
+.job-title {
+	position: absolute;
+	left: 5mm;
+	top: 10mm;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.company {
+	position: absolute;
+	left: 5mm;
+	top: 18mm;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.contact-info {
+	position: absolute;
+    margin-top: 15px;
+	left: 5mm;
+	top: 21mm;
+}
+
+/* Customize additional contact information styles */
+.phone,
+.email,
+.address {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+.logo {
+    position: absolute;
+    left: 25mm;
+    top: 15mm;
+    width: 15mm;
+    height: 15mm;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.company-name {
+	position: absolute;
+   
+	left: 15mm;
+	top:30mm;
+	width: 33mm;
+    height: 15mm;
+}
+.company-name img {
+    width: 100%;
+    height: 100%;
+}
+.company-qr {
+	 position: absolute;
+    right: 0mm;
+    top: 9mm;
+    width: 45mm;
+    height: 30mm;
+
+}
+.company-qr  img {
+    width: 100%;
+    height: 100%;
+}
+.company-site{
+	 position: absolute;
+    right: 10mm;
+    top: 41mm;
+    width: 35mm;
+    height: 30mm;
+
+}
