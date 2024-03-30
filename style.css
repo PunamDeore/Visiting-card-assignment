@@ -37,8 +37,8 @@ body {
   top: 8mm;
   width: 120mm;
   height: 60mm;
-  background-color: #ffffff;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+ background: rgb(241,241,255);
+background: linear-gradient(259deg, rgba(241,241,255,1) 0%, rgba(241,241,241,1) 19%, rgba(239,239,239,1) 46%, rgba(143,140,140,1) 94%);
   overflow: hidden;
 }
 .card-box1-1 {
@@ -47,7 +47,8 @@ body {
   width: 60mm;
   height: 30mm;
   margin: auto;
-  background-color: #0000ff;
+background: rgb(2,50,126);
+background: linear-gradient(65deg, rgba(2,50,126,1) 19%, rgba(16,84,129,1) 46%, rgba(13,95,151,1) 94%);
   transform: skewX(30deg);
   overflow: hidden;
 }
@@ -56,8 +57,9 @@ body {
   left: 5mm;
   width: 60mm;
     bottom: 0mm;
-  height: 31mm;
-  background-color: #0000ff;
+  height: 30.5mm;
+background: rgb(2,50,126);
+background: linear-gradient(65deg, rgba(2,50,126,1) 19%, rgba(16,84,129,1) 46%, rgba(13,95,151,1) 94%);
 transform: skewX(-30deg);
 }
 .card-box1-3 {
@@ -65,7 +67,8 @@ transform: skewX(-30deg);
   left: -10mm;
   width: 71mm;
   height: 30mm;
-background-color:#FF9933;
+background: rgb(245,71,0);
+background: linear-gradient(107deg, rgba(245,71,0,1) 0%, rgba(250,103,0,1) 50%, rgba(252,117,2,1) 100%);
 transform: skewX(32deg);
 }
 .card-box1-4 {
@@ -73,8 +76,9 @@ transform: skewX(32deg);
   left: -10.3mm;
   width: 71mm;
      bottom: 0mm;
-  height: 31mm;
-  background-color: #FF9933;
+  height: 30.5mm;
+ background: rgb(245,71,0);
+background: linear-gradient(107deg, rgba(245,71,0,1) 0%, rgba(250,103,0,1) 50%, rgba(252,117,2,1) 100%);
 transform: skewX(-32deg);
 }
 .card-box2{
@@ -83,8 +87,8 @@ transform: skewX(-32deg);
   bottom: 8mm;
   width: 120mm;
   height: 60mm;
-  background-color: #0000FF;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  background: rgb(11,112,158);
+background: linear-gradient(90deg, rgba(11,112,158,1) 0%, rgba(14,90,142,1) 46%, rgba(9,47,112,1) 100%);
   overflow: hidden;
 }
 .card-box2-1 {
@@ -99,10 +103,10 @@ transform: skewX(-32deg);
 }
 .card-box2-2{
   position: absolute;
-  right: -1.5mm;
+  right: -1.3mm;
   width: 30mm;
     bottom: 0mm;
-  height: 31mm;
+  height: 30.5mm;
   background-color: #ffffff;
 transform: skewX(45deg);
 }
@@ -111,17 +115,19 @@ transform: skewX(45deg);
   right: -10mm;
   width: 41mm;
   height: 30mm;
-background-color:#FF9933;
+background: rgb(248,82,0);
+background: linear-gradient(301deg, rgba(248,82,0,1) 0%, rgba(251,109,1,1) 46%, rgba(255,122,1,1) 100%);
 transform: skewX(-32deg);
 }
 .card-box2-4 {
   position: absolute;
-  right: -17mm;
+  right: -16.3mm;
   width: 41mm;
      bottom: 0mm;
-  height: 31mm;
-  background-color: #FF9933;
-transform: skewX(47deg);
+  height: 30mm;
+background: rgb(255,122,1);
+background: linear-gradient(90deg, rgba(255,122,1,1) 0%, rgba(251,109,1,1) 46%, rgba(248,82,0,1) 100%);
+transform: skewX(46deg);
 
 }
 
@@ -198,9 +204,9 @@ transform: skewX(47deg);
 }
 .company-qr {
 	 position: absolute;
-    right: 0mm;
+    right: 10mm;
     top: 9mm;
-    width: 45mm;
+    width: 30mm;
     height: 30mm;
 
 }
